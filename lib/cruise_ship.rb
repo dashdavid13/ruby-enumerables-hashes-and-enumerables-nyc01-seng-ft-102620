@@ -7,5 +7,8 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.each do |lucky_passenger| 
+    lucky_passenger == suite_a && lucky_passenger == "A"
+  end 
+  
 end
